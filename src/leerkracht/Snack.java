@@ -6,7 +6,6 @@ public class Snack implements Comparable<Snack>, Serializable {
     private int artikelCode;
     private String naam;
     private float prijs;
-    private boolean omdatHetKan;
 
     public Snack(int artikelCode, String naam, float prijs) {
         this.artikelCode = artikelCode;
